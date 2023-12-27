@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>FTGroup</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <!-- <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar">
+                    <div class="top-info">
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>23 Ranking Street, New York</small>
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>Email@Example.com</small>
+                    </div>
+                    <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div>
+                    <div class="top-link">
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-primary">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-secondary fw-bold d-block">FT<span class="text-white">Group</span> </h1>
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="index.html" class="nav-item nav-link">Acceuil</a>
+                            <a href="about.html" class="nav-item nav-link">A Propos</a>
+                            <a href="service.html" class="nav-item nav-link active text-secondary">Services</a>
+                            <!-- <a href="project.html" class="nav-item nav-link">Projects</a> -->
+                            <!-- <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu rounded">
+                                    <a href="blog.html" class="dropdown-item">Our Blog</a>
+                                    <a href="team.html" class="dropdown-item">Our Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                    <a href="404.html" class="dropdown-item">404 Page</a>
+                                </div>
+                            </div> -->
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-flex flex-shirink-0">
+                        <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                            <a href="" class="position-relative animated tada infinite">
+                                <i class="fa fa-phone-alt text-white fa-2x"></i>
+                                <div class="position-absolute" style="top: -7px; left: 20px;">
+                                    <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column pe-4 border-end">
+                            <span class="text-white-50">Have any questions?</span>
+                            <span class="text-secondary">Call: + 0123 456 7890</span>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center ms-4 ">
+                            <a href="#"><i class="bi bi-search text-white fa-2x"></i> </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        
+
+
+       <!-- Services Start -->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Nos Services</h5>
+                    <h1>Des services spécialement conçus pour vous</h1>
+                </div>
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <div class="service">
+                                        <img src="img/service1.jpg" class="img-fluid w-50 square" alt="">
+                                    </div>
+                                    <!-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Immigration Canada</h4>
+                                    <p class="mb-4">Nous sommes les spécialistes de l'Immigration qui rendent les choses faciles pour vous.  </p>
+                                    <a href="/immigration.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Lire Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <div class="service">
+                                        <img src="img/service2.jpg" class="img-fluid w-50 square" alt="">
+                                    </div>
+                                    <!-- <i class="fa fa-file-code fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Développement Web/Mobile </h4>
+                                    <p class="mb-4">Nous créons et maintenons vos sites internets en utilisant des langages de programmation et des technologies pour vous offrir une expérience intérative aux utilisateurs. Nous créons également des applications mobiles. </p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Lire Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <div class="service">
+                                        <img src="img/service3.jpg" class="img-fluid w-50 square" alt="">
+                                    </div>
+                                    <!-- <i class="fa fa-external-link-alt fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Graphisme</h4>
+                                    <p class="mb-4">Notre service de graphisme est dédié à donner vie à vos idées et à renforcer l’identité visuelle de votre marque. Nous offrons une gamme complète de solutions créatives conçues pour captiver votre public cible et différencier votre entreprise de la concurrence.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Lire Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <div class="service">
+                                        <img src="img/service4.jpg" class="img-fluid w-50 square" alt="">
+                                    </div>
+                                    <!-- <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Marketing Digital / Publicité</h4>
+                                    <p class="mb-4">Obtenez le meilleur service de marketing digital et la solution de marketing sur internet.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Lire Plus</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <div class="service">
+                                        <img src="img/service5.jpg" class="img-fluid w-50 square" alt="">
+                                    </div>
+                                    <!-- <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Audiovisuel</h4>
+                                    <p class="mb-4">Pour donner vie à des images virtuelles (effets spéciaux) en créant des mouvements réalistes ou stylisés.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Lire Plus</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <div class="service">
+                                        <img src="img/service6.jpg" class="img-fluid w-50 square" alt="">
+                                    </div>
+                                    <!-- <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Réseau $ Télécommunications</h4>
+                                    <p class="mb-4">Notre service de réseau et télécommunication offre des solutions innovantes conçues pour optimiser la connectivité, renforcer la sécurité des données et améliorer l'éfficacité opérationnelle de votre entreprise.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Lire Plus</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <div class="service">
+                                        <img src="img/service7.jpg" class="img-fluid w-50 square" alt="">
+                                    </div>
+                                    <!-- <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Photographie</h4>
+                                    <p class="mb-4">Nous faisons de vos moments mémorables des souvenirs inoubliables à partir de notre grande expérience dans la photographie.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Lire Plus</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <div class="service">
+                                        <img src="img/service8.jpeg" class="img-fluid w-60 square" alt="">
+                                    </div>
+                                    <!-- <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">E-commerce</h4>
+                                    <p class="mb-4">Que vous ayez besoin d'une plateforme de commerce électronique, d'une solution de paiement en ligne sécurisée ou d'une statégie de marketing numérique, nous avons les compétences et l'expertise nécessaires pour vous aider à réussir dans le monde en constante  évolution du commerce électronique.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Lire Plus</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <div class="service">
+                                        <img src="img/service9.jpg" class="img-fluid w-50 square" alt="">
+                                    </div>
+                                    <!-- <i class="fas fa-laptop fa-7x mb-4 text-primary"></i> -->
+                                    <h4 class="mb-3">Formation</h4>
+                                    <p class="mb-4">Nos formateurs engagés travailleront avec vous pour créer des sessions de formation(dans tous les services IT que nous proposons) interactives et engeantes qui permetrront à tout apprenant d'acquérir les compétences dont ils auront besoin pour réussir dans un environnement en constante évolution.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Lire Plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Nos Témoignages</h5>
+                    <h1>Nos clients disent!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
+                    <div class="testimonial-item border p-4">
+                        <div class="d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-1.jpeg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Andy</h4>
+                                <p class="m-0 pb-3">Etudiant</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Je tiens à exprimer ma profonde gratitude envers l'agence d'immigration Canada FTGroup pour son professionnalisme exceptionnel. Grâce à leur expertise, j'ai pu naviguer avec succès dans le processus complexe d'immigration. Leur engagement, leur diligence et leur soutien constant ont fait de mon rêve de vivre au Canada une réalité. Un grand merci à toute l'équipe pour cette expérience positive et transformative.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-2.jpeg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Mireille Jague</h4>
+                                <p class="m-0 pb-3">Residence permanente</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Un immense merci à l'agence d'immigration Canada FTGroup pour son accompagnement exceptionnel tout au long de mon processus d'immigration. Leur équipe compétente et dévouée a su répondre à toutes mes préoccupations, facilitant ainsi chaque étape. Grâce à leur expertise, j'ai non seulement atteint mes objectifs, mais j'ai également vécu une expérience sans stress. Je recommande chaudement leurs services à tous ceux qui envisagent de s'installer au Canada. Une agence véritablement remarquable.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-3.jpeg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Martial</h4>
+                                <p class="m-0 pb-3">Travailleur</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Je tiens à exprimer ma satisfaction totale envers l'agence d'immigration Canada FTGroup. Leur équipe dévouée a été un partenaire précieux tout au long de mon processus d'immigration. Leur professionnalisme, leur expertise approfondie et leur soutien constant ont été inestimables. Grâce à FTGroup, mon rêve de vivre au Canada est devenu une réalité sans tracas. Un grand merci pour leur service exceptionnel et leur engagement envers le succès de leurs clients.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="testimonial-item border p-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-4.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Client Name</h4>
+                                <p class="m-0 pb-3">Profession</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Bouton flottant de WhatsApp -->
+        <a href="https://wa.me/+237690915732" target="_blank" class="whatsapp-button">
+            <img src="img/whatsapp.png" alt="WhatsApp">
+        </a>
+        <!-- end bouton whatsapp -->
+
+
+
+        <!-- Testimonial End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-3 pb-2">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-5">
+                        <a href="index.html">
+                            <h1 class="text-secondary fw-bold d-block">FT<span class="text-white">Group</span></h1>
+                        </a>
+                        <p class="mt-4 text-light"></p>
+                        <div class="d-flex hightech-link">
+                            <a href="https://www.facebook.com/profile.php?id=61552656661213&mibextid=ZbWKwL" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="https://wa.me/+237690915732" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-whatsapp text-primary"></i></a>
+                            <a href="https://www.instagram.com/we_are_ftgroup?igshid=NmQ5Y2ExZGE1MQ==" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                            <a href="https://www.linkedin.com/company/ftgroup-sarl/" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                        <a href="#" class="h2 text-secondary">Contact </a>
+                        <div class="mt-1 d-flex">
+                            <i class="fas fa-map-marker-alt text-secondary me-1"></i><p class="text-white">Nouvelle route cité sic, Douala, Cameroun</p>
+                            <i class="fas fa-phone-alt text-secondary me-1"></i><p class="text-white">+237 698 28 30 79 / +237 674 58 89 46</p>
+                            <i class="fas fa-envelope text-secondary me-1"></i><p class="text-white">ftgroupsarl@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <hr class="text-light mt-3 mb-2"> -->
+                <div class="row-g-5">
+                    <!-- <div class="col-md-6 text-md-start"> -->
+                        <p>Mentions légales et politiques de confidentialité/ Copyright <i class="fas fa-copyright me-2"></i>FTGroup 2023, tous droits réservés.</p>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <!-- <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a> -->
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
